@@ -1,0 +1,1 @@
+This is website about a photogallery
