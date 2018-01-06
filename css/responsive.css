@@ -1,0 +1,73 @@
+@media screen and (min-width:480px){
+ 
+  
+  /*******************************************
+     THREE COLUMN LAYOUT
+   ********************************************/
+
+   /* 3 x (2.5+2.5)=15
+   100%-15%=85%, 85/3=28.3333*/
+
+  #gallery li{
+    width:28.3333%
+
+ }
+ 
+  #gallery li:nth-child(4n) {
+   clear:left
+  
+  }   
+  
+} 
+  
+ @media screen and (min-width:660px){
+ 
+/*******************************************
+     HEADER
+********************************************/
+  
+  nav{
+   background:none;
+   float:right;
+   font-size: 1.125em;
+   text-align:right;
+   width: 45%; 
+       
+  }
+  
+  #logo{
+    float:left;
+    margin-left:5%;
+    text-align:left;
+    width:4.5%;
+  }
+  
+  h1{
+    font-size:2.5em;
+    
+  }
+  
+  h2{
+   font-size:0.825em;
+    margin-bottom:20px; 
+  }
+  
+  header{
+   border-bottom: 5px solid #599a68;
+   margin-bottom:60px;
+   
+  
+  }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
