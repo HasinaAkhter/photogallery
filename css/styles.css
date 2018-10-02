@@ -160,7 +160,7 @@ a {
 
 a:focus {
 	text-decoration: underline;
-	outline: .6px solid #fff;
+	outline: .6px dotted #fff;
 }
 
 
